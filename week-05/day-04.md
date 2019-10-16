@@ -269,7 +269,7 @@ class ApplicationController < ActionController::Base
   end
 ​
 ​
-  def authorize_user
+  def authorise_user
     redirect_to root_path unless @current_user.present?
   end
 end
